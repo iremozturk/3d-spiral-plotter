@@ -103,33 +103,6 @@ The script generates:
 
 The script includes a correlation check between Z coordinates and point numbers. A positive correlation (typically > 0.3) indicates that point numbers are generally ascending along the Z axis, as expected. The test data should show a correlation close to 1.0.
 
-## Data Format
-
-The data files contain points with the following structure:
-
-- **name**: Point identifier (e.g., "Point #1", "Point #2")
-- **x**: X coordinate (typically ranges from -1.3 to 1.3)
-- **y**: Y coordinate (typically ranges from -1.3 to 1.3)
-- **z**: Z coordinate (typically ranges from 1.0 to 19.0)
-
-Data is available in both CSV and JSON formats:
-- `spiral.csv`: Comma-separated values format
-- `spiral.json`: JSON array format
-
-## Files
-
-- `visualize_spiral.py`: Main visualization script
-- `requirements.txt`: Python dependencies
-- `spiral.csv`: Data in CSV format
-- `spiral.json`: Data in JSON format
-- `spiral.m`: Original MATLAB data generation script
-- `README.txt`: Original project instructions
-
-## Project Information
-
-This project was created for CSC864 (Spring 2022). The original data generation script (`spiral.m`) was provided in MATLAB format and generates 1500 points with added noise to create a loose spiral pattern.
-
-## License
 
 This project is for educational purposes.
 
